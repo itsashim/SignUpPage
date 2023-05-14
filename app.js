@@ -62,7 +62,7 @@ app.post("/failure", function (req, res) {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
-  console.log("hello");
+  console.log("server is running on", PORT);
 });
 
 // audience Id ce1ecb598d
